@@ -15,7 +15,7 @@ E:/UNITY PROJECTS/Diseño de niveles Parcial 1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52196
+52736
 Successfully changed project path to: E:/UNITY PROJECTS/Diseño de niveles Parcial 1
 E:/UNITY PROJECTS/Diseño de niveles Parcial 1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ E:/UNITY PROJECTS/Diseño de niveles Parcial 1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20396] Host "[IP] 192.168.191.46 [Port] 0 [Flags] 2 [Guid] 3577749043 [EditorId] 3577749043 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H99RJ26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30936] Host "[IP] 192.168.191.46 [Port] 0 [Flags] 2 [Guid] 4252904360 [EditorId] 4252904360 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H99RJ26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20396] Host "[IP] 192.168.191.46 [Port] 0 [Flags] 2 [Guid] 3577749043 [EditorId] 3577749043 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H99RJ26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30936] Host "[IP] 192.168.191.46 [Port] 0 [Flags] 2 [Guid] 4252904360 [EditorId] 4252904360 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H99RJ26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 11.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path E:/SOFTWARE/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'E:/SOFTWARE/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/SOFTWARE/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/SOFTWARE/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/SOFTWARE/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005538 seconds.
-- Loaded All Assemblies, in  0.399 seconds
+Registered in 0.005862 seconds.
+- Loaded All Assemblies, in  0.400 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.309 seconds
+- Finished resetting the current domain, in  0.308 seconds
 Domain Reload Profiling: 708ms
-	BeginReloadAssembly (126ms)
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (125ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (142ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (129ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (310ms)
+	FinalizeReload (309ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (242ms)
+		SetupLoadedEditorAssemblies (238ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (161ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,63 +116,117 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\UNITY PROJECTS\Diseño de niveles Parcial 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\UNITY PROJECTS\Diseño de niveles Parcial 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-TypeRef ResolutionScope not yet handled (217) for .IMergeView in image E:\UNITY PROJECTS\Diseño de niveles Parcial 1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-- Loaded All Assemblies, in  0.836 seconds
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-Could not load signature of Unity.PlasticSCM.Editor.Developer.UpdateReport.UpdateReportDialog:DoErrorDetailsTextArea due to: Could not resolve type with token 01000163 from typeref (expected class 'Codice.Client.BaseCommands.ReportLine' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ReportLine member:(null)
-Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:ShowUpdateReport due to: Could not resolve type with token 0100006c from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
-Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:UpdateUpdateReportList due to: Could not resolve type with token 0100006c from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
-Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:GetErrorDetailsText due to: Could not resolve type with token 0100006c from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
-Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:DoErrorDetailsTextArea due to: Could not resolve type with token 0100006c from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
-Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:Create due to: Could not resolve type with token 0100006c from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.7995, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+- Loaded All Assemblies, in  0.893 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.473 seconds
-Domain Reload Profiling: 1308ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (542ms)
-		LoadAssemblies (325ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (636ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (334ms)
-			TypeCache.Refresh (313ms)
-				TypeCache.ScanAssembly (299ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (473ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (820ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (300ms)
+		SetupLoadedEditorAssemblies (617ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5272 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 5720.
-Memory consumption went from 174.4 MB to 172.8 MB.
-Total: 2.556600 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.165800 ms MarkObjects: 1.872700 ms  DeleteObjects: 0.251100 ms)
+Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 5722.
+Memory consumption went from 180.8 MB to 179.1 MB.
+Total: 4.653700 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 0.226300 ms MarkObjects: 3.319500 ms  DeleteObjects: 0.358400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: 1ef1cb9af7c7d64bd75bd621bba19cd7 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UNITY PROJECTS\Diseño de niveles Parcial 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UNITY PROJECTS\Diseño de niveles Parcial 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.807 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.604 seconds
+Domain Reload Profiling: 2411ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (323ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 5737.
+Memory consumption went from 170.4 MB to 168.7 MB.
+Total: 4.412300 ms (FindLiveObjects: 0.766700 ms CreateObjectMapping: 0.237500 ms MarkObjects: 3.122000 ms  DeleteObjects: 0.284700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -184,89 +238,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:unityplastic: c88b43b34128fd408eae2a5e7f1e6a51 -> 3c30bc2c6029bd937aec52f5f186acab
-========================================================================
-Received Import Request.
-  Time since last request: 15727.160098 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/button_panel.fbx
-  artifactKey: Guid(4cda29d24979aac47af3ec8fb449a1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/button_panel.fbx using Guid(4cda29d24979aac47af3ec8fb449a1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33ea3f01482754dfb635964ca1e7be4') in 0.599601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/coin.fbx
-  artifactKey: Guid(8fa0eacd35384a44ba986cfde44774d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/coin.fbx using Guid(8fa0eacd35384a44ba986cfde44774d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58478b8b9a0ea56a205fb1767db889ec') in 0.014865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/LilyHead.fbx
-  artifactKey: Guid(1504b6975f839304c99d0d69d156e679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/LilyHead.fbx using Guid(1504b6975f839304c99d0d69d156e679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4758315472a9afc0a954b3aae2de3d') in 0.009382 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Sign.fbx
-  artifactKey: Guid(b4c83167e459c1947b9b4d5398d38e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Sign.fbx using Guid(b4c83167e459c1947b9b4d5398d38e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45b21afce9cf4300c00b34263b17101') in 0.008999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/long_platform.fbx
-  artifactKey: Guid(bd78bcabe3d62c946a2a0a4d29d9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/long_platform.fbx using Guid(bd78bcabe3d62c946a2a0a4d29d9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea0266f4e23ff05c1ff95a33bd4e4a4') in 0.086258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/slime.fbx
-  artifactKey: Guid(5c1e6980024d5b441bc1a8b8ea5ea2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/slime.fbx using Guid(5c1e6980024d5b441bc1a8b8ea5ea2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc38a7a90bb180dde137cfe424d8b39f') in 0.199773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.001388 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/halfpipe_out.fbx
-  artifactKey: Guid(a5fcbfc3af73689449f501b1611508d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/halfpipe_out.fbx using Guid(a5fcbfc3af73689449f501b1611508d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b91d86df9ee6fd2d7338a1ae3ea3a18') in 0.016235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.002243 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/glider.fbx
-  artifactKey: Guid(9bc95a7f025ccb8479b9c858b7c18030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/glider.fbx using Guid(9bc95a7f025ccb8479b9c858b7c18030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e11f8a8f708e47d1dd4e2a2cc9aa36d') in 0.021241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Dice.fbx
-  artifactKey: Guid(a133c5169e93d134983730a22561fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Dice.fbx using Guid(a133c5169e93d134983730a22561fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b790336949cf61273396718142bb56') in 0.016143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/spikes_panel.fbx
-  artifactKey: Guid(d1d049da5e539aa45b7a1cc1fc908c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/spikes_panel.fbx using Guid(d1d049da5e539aa45b7a1cc1fc908c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cece82d48e228c018978c7777fc5315') in 0.028805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operaci�n de E/S se anul� por una salida de subproceso o por una solicitud de aplicaci�n.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
