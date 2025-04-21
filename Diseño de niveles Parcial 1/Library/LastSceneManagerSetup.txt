@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene.unity
+- path: Assets/Scenes/Nivel01Tutorial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
