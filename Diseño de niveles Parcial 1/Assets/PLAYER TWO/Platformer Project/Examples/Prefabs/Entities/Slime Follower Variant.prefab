@@ -5,8 +5,14 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 291453412167036155, guid: 07f1be6ccb495ac43a33cdf46352e4c0,
+        type: 3}
+      propertyPath: collisionLayer.m_Bits
+      value: 16243
+      objectReference: {fileID: 0}
     - target: {fileID: 1824014398455109895, guid: 07f1be6ccb495ac43a33cdf46352e4c0,
         type: 3}
       propertyPath: m_Name
@@ -180,6 +186,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 40a0e319cc2fd07469c3ff82ee53a774, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07f1be6ccb495ac43a33cdf46352e4c0, type: 3}
 --- !u!114 &6957784178606165581 stripped
 MonoBehaviour:
